@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     my_block my = ^(NSString *str){
-        NSLog(@"%@%@我在好好考虑考虑",str,my);
+        NSLog(@"%@%@哈哈哈我在好好考虑考虑",str,my);
         
     };
     NSLog(@"success");
