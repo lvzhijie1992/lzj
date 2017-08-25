@@ -20,9 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     my_block my = ^(NSString *str){
-        NSLog(@"%@%@我在考虑考虑",str,my);
+        NSLog(@"%@%@我在好好考虑考虑",str,my);
         
     };
+    NSLog(@"success");
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 90, 100, 30)];
     [btn addTarget:self action:@selector(lzj) forControlEvents:UIControlEventTouchUpInside];
     [btn setTitle:@"点击" forState:UIControlStateNormal];
