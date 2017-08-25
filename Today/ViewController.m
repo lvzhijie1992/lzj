@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     my_block my = ^(NSString *str){
-        NSLog(@"%@%@",str,my);
+        NSLog(@"%@%@考虑考虑",str,my);
         
     };
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 90, 100, 30)];
